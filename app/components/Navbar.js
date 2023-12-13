@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import Models from "../Models"
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+
 import { Badge } from 'react-bootstrap'
 import Cart from "./Cart"
 import { useCart } from './ContextReducer'
