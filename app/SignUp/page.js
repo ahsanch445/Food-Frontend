@@ -42,8 +42,8 @@ const Register = () => {
         router.push("/Login");
 
 
-        const email = formData.email;
-        localStorage.setItem('email', email  );
+        const username = formData.username;
+        localStorage.setItem('username', username  );
 
 
       } else {
