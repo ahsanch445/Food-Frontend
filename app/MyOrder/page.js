@@ -14,7 +14,7 @@ export default function MyOrder() {
                 return;
             }
 
-            const response = await fetch("https://food-api-theta.vercel.app//myOrderData", {
+            const response = await fetch("https://food-api-theta.vercel.app/myOrderData", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

@@ -18,7 +18,7 @@ const Page = () => {
 
   const fetchFoodData = async () => {
     try {
-      const response = await axios.post('https://food-api-theta.vercel.app//api/fooddata');
+      const response = await axios.post('https://food-api-theta.vercel.app/api/fooddata');
 
       if (response.data.length >= 2) {
         console.log(response.data[0], response.data[1]); // Check the structure of response.data

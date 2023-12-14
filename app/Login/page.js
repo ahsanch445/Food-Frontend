@@ -31,7 +31,7 @@ const Login= () => {
     e.preventDefault();
     try {
       // Send registration data to your server using axios
-      const response = await axios.post('https://food-api-theta.vercel.app//login', formData);
+      const response = await axios.post('https://food-api-theta.vercel.app/login', formData);
 
       // Assuming your server sends a response like { message: 'Registration successful' }
       if (response.status === 200) {
